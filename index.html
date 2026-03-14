@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>AI Student Support Agent</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>AI Student Support Agent</h1>
+
+<div class="dashboard">
+
+<div class="card">Hackathons</div>
+<div class="card">Clubs</div>
+<div class="card">Resources</div>
+
+</div>
+
+<button onclick="connectWallet()">Connect Wallet</button>
+
+<p id="walletAddress"></p>
+<p id="walletStatus">Wallet not connected</p>
+
+<div class="chat-container">
+
+<div id="chatBox"></div>
+
+<input type="text" id="userInput" placeholder="Ask about hackathons, clubs, courses">
+<button onclick="sendMessage()">Send</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
